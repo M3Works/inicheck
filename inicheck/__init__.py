@@ -3,7 +3,7 @@ from os.path import abspath, dirname, join
 
 __author__ = """M3Works"""
 __email__ = 'info@m3works.io'
-__version__ = '0.2.2'
+__version__ = '0.3.0'
 
 # Keywords for conditional statements in a master config file
 __trigger_keywords__ = ['trigger']
