@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from os.path import abspath, dirname, join
 
-__author__ = """Micah Johnson"""
-__email__ = 'micah.johnson150@gmail.com'
+__author__ = """M3Works"""
+__email__ = 'info@m3works.io'
 __version__ = '0.2.2'
 
 # Keywords for conditional statements in a master config file

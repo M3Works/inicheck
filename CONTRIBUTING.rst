@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/USDA-ARS-NWRC/inicheck/issues.
+Report bugs at https://github.com/M3Works/inicheck/issues.
 
 If you are reporting a bug, please include:
 
@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/USDA-ARS-NWRC/inicheck/issues.
+The best way to send feedback is to file an issue at https://github.com/M3Works/inicheck/issues.
 
 If you are proposing a feature:
 
@@ -68,7 +68,7 @@ Ready to contribute? Here's how to set up `inicheck` for local development.
 
     $ mkvirtualenv inicheck
     $ cd inicheck/
-    $ python setup.py develop
+    $ pip install -e ".[dev]"
 
 4. Create a branch for local development::
 
@@ -79,7 +79,7 @@ Ready to contribute? Here's how to set up `inicheck` for local development.
 5. When you're done making changes, check that your changes pass flake8 and the tests:
 
     $ flake8 inicheck tests
-    $ python setup.py test or py.test
+    $ pytest
 
    To get flake8, just pip install them into your virtualenv.
 
@@ -100,8 +100,8 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python >= 3.6. Check
-   https://github.com/USDA-ARS-NWRC/inicheck/pull_requests
+3. The pull request should work for Python >= 3.10. Check
+   https://github.com/M3Works/inicheck/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
    Releasing to PyPI
@@ -109,7 +109,7 @@ Before you submit a pull request, check that it meets these guidelines:
    To create a new release on `Pypi.org <https://pypi.org/>`_, follow these steps:
    
    #. Create a new release for inicheck
-   #. Name the tag and release the version number, for example `v0.9.1 <https://github.com/USDA-ARS-NWRC/inicheck/releases/tag/v0.9.1>`_
+   #. Name the tag and release the version number, for example `v0.9.1 <https://github.com/M3Works/inicheck/releases/tag/v0.9.1>`_
    #. Add documentation about the release and why it's different from the previous.
       Especially highlight any changes that will break existing integrations.
    #. Publish new release which will trigger a build to release to PyPI

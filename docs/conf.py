@@ -14,7 +14,7 @@
 #
 import os
 import sys
-from pkg_resources import get_distribution
+from importlib.metadata import version
 
 project_dir =  os.path.abspath(os.path.dirname(os.getcwd()))
 print(project_dir)
@@ -24,11 +24,11 @@ sys.path.insert(0, project_dir)
 
 # -- Project information -----------------------------------------------------
 project = 'inicheck'
-copyright = '2020, Micah Johnson'
-author = 'Micah Johnson'
+copyright = '2026, M3Works'
+author = 'M3Works'
 
 # The full version, including alpha/beta/rc tags
-release = get_distribution('inicheck').version
+release = version('m3w-inicheck')
 
 
 # -- General configuration ---------------------------------------------------
@@ -148,7 +148,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'inicheck.tex', 'inicheck Documentation',
-     'Micah Johnson', 'manual'),
+     'M3Works', 'manual'),
 ]
 
 

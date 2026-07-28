@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          python3 -m pip install flake8
+          python3 -m pip install ".[dev]"
 
       - name: Lint with flake8
         run: flake8 inicheck --ignore=C901,W503
@@ -55,8 +55,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          python3 -m pip install -r requirements_dev.txt
-          python3 -m pip install .
+          python3 -m pip install ".[dev]"
 
       - name: Test with pytest
         run: pytest -v --cov=inicheck --cov-report=term-missing --cov-fail-under=75
