@@ -22,9 +22,9 @@ setup(
                 "configuration files",
     long_description=readme + '\n\n' + history,
     long_description_content_type='text/x-rst',
-    author="USDA ARS NWRC",
-    author_email='snow@ars.usda.gov',
-    url='https://github.com/USDA-ARS-NWRC/inicheck',
+    author="M3Works",
+    author_email='info@m3works.io',
+    url='https://github.com/M3Works/inicheck',
     project_urls={
         'Documentation': 'https://inicheck.readthedocs.io',
     },

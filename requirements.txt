@@ -1,3 +1,2 @@
 dateparser<2.0
 requests>=2.0.0
-regex>=2021.11.10
