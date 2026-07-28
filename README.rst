@@ -10,8 +10,9 @@ Welcome to inicheck
         :target: https://inicheck.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://coveralls.io/repos/github/USDA-ARS-NWRC/inicheck/badge.svg?branch=master
-	:target: https://coveralls.io/github/USDA-ARS-NWRC/inicheck?branch=master
+.. image:: https://github.com/M3Works/inicheck/actions/workflows/testing.yml/badge.svg
+        :target: https://github.com/M3Works/inicheck/actions/workflows/testing.yml
+        :alt: Testing Status
 
 
 What is inicheck?

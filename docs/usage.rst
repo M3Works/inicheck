@@ -165,8 +165,8 @@ Here are some examples of this in action:
 
 * `SMRFs example configuration header`_
 * `SMRFs example custom header function`_
-.. _`SMRFs example configuration header`: https://github.com/USDA-ARS-NWRC/smrf/blob/master/examples/boise_river_basin/brb_wy2017.ini
-.. _`SMRFs example custom header function`: https://github.com/USDA-ARS-NWRC/smrf/blob/master/smrf/utils/utils.py#L259
+.. _`SMRFs example configuration header`: https://github.com/M3Works/smrf/blob/master/examples/boise_river_basin/brb_wy2017.ini
+.. _`SMRFs example custom header function`: https://github.com/M3Works/smrf/blob/master/smrf/utils/utils.py#L259
 
 
 Custom Configuration File Section Titles
@@ -198,6 +198,6 @@ The following is a good example of how this looks in a project:
 * `AWSMs example configuration titles`_
 * `AWSMS module dictionary`_
 
-.. _`AWSMs example configuration titles`: https://github.com/USDA-ARS-NWRC/awsm/blob/master/tests/test_base_config.ini
+.. _`AWSMs example configuration titles`: https://github.com/M3Works/awsm/blob/master/tests/test_base_config.ini
 
-.. _`AWSMS module dictionary`: https://github.com/USDA-ARS-NWRC/awsm/blob/master/awsm/__init__.py
+.. _`AWSMS module dictionary`: https://github.com/M3Works/awsm/blob/master/awsm/__init__.py
